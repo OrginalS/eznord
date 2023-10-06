@@ -1,7 +1,7 @@
 # eznord
 Simple bash front-end for nordvpn.
 
-Copy contents to your ```.bash_aliases``` file.
+Copy contents of the ```eznord``` file to your ```.bash_aliases``` file.
 
 Use ```nc <Country name, country code, city>``` to connect or ```nc``` to connect to default location.
 You can change default location by changing country code in ```ncon``` function.

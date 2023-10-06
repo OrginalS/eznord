@@ -5,6 +5,7 @@ Copy contents to your ```.bash_aliases``` file.
 
 Use ```nc <Country name, country code, city>``` to connect or ```nc``` to connect to default location.
 You can change default location by changing country code in ```ncon``` function.
+
 For example:
 ```
 country="${1:-ch}"

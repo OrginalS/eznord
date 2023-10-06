@@ -1,0 +1,16 @@
+#nordvpn
+
+ncon(){
+	country="${1:-ch}"
+	nordvpn set killswitch on
+	nordvpn connect $country
+}
+
+ndc(){
+	nordvpn set killswitch off
+	nordvpn disconnect
+}
+
+alias "nc"="ncon"
+alias "ns"="nordvpn status"
+alias "nd"="ndc"
